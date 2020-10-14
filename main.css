@@ -5342,6 +5342,7 @@ a.text-dark:hover, a.text-dark:focus {
           align-items: center;
   -webkit-box-shadow: 5px 5px 5px #d5d5d5;
           box-shadow: 5px 5px 5px #d5d5d5;
+  border: 2px solid #dad6ab;
   margin: 10px;
   padding: 15px;
   background: #e0ddb2;
@@ -5380,8 +5381,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .sec-text > div:not(:nth-child(2)) {
-  border: 2px solid #dad6ab;
   padding: 15px;
+  border: 2px solid #dad6ab;
 }
 
 @media screen and (max-width: 768px) {

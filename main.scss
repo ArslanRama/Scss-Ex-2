@@ -43,7 +43,7 @@
                 display: inline-block;
                 a {
                     line-height: 80px;
-                    color: #016690;
+                    color: $nav-footer;
                     margin: 0 20px;
                     font-size: 20px;
                     font-weight: bold;
@@ -87,9 +87,10 @@
     > div {
         @include flex(row, space-between, center);
         @include shadow(box, 5px, 5px, 5px, #d5d5d5 );
+        @include border(2px, $card-aside-border);
         margin: 10px;
         padding: 15px;
-        background: #e0ddb2;;
+        background: $card-bg;
         
         > img {
             width: 40%;
@@ -120,8 +121,8 @@
     padding: 0 25px 20px;
 
     > div:not(:nth-child(2)) {
-        border: 2px solid #dad6ab;
         padding: 15px;
+        @include border(2px, $card-aside-border);
     }
 
     @media screen and (max-width: 768px) {
@@ -133,7 +134,7 @@
 
 /* FOOTER */
 .footer {
-    background: #016690;
+    background: $nav-footer;
     height: 60px;
     justify-content: center;
     > div > a {
