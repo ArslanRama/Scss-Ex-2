@@ -8,14 +8,14 @@ This exercise focuses mainly importing files, variables, and @mixin topics.
   * Color used for nav and footer: #016690
 
 
-### Desktop design
+# Desktop design
 
-![Desktop](./reference_images/desktop.png "desktop version")
+![Desktop](/Desktop.png)
 
-### Tablet design
+# Tablet design
 
-![Tablet](./reference_images/tablet.png "tablet version")
+![Tablet](/Tablet.png)
 
-#### Mobile design
+# Mobile design
 
-![Mobile](./reference_images/mobile.png "mobile version")
+![Mobile](/Mobile.jpg)
