@@ -1,7 +1,7 @@
 $grid-breakpoints: (
   md: 768px,
   lg: 1024px
-) ;
+);
 
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -121,6 +121,7 @@ $grid-breakpoints: (
     }
 }
 
+/* ASIDE & ARTICLE */
 .sec-text {
     padding: 0 25px 20px;
 
