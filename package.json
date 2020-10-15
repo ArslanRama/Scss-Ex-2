@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArslanRama/Scss-Ex-2.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArslanRama/Scss-Ex-2/issues"
+  },
+  "homepage": "https://github.com/ArslanRama/Scss-Ex-2#readme",
   "dependencies": {
     "bootstrap": "^4.5.3"
   }
